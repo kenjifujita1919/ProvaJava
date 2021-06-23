@@ -1,8 +1,10 @@
 package Models;
 
 public class Triangulo extends Forma {
+	
 	private int Altura;
 	private int Base;
+	
 	public int getAltura() {
 		return Altura;
 	}
@@ -14,6 +16,10 @@ public class Triangulo extends Forma {
 	}
 	public void setBase(int base) {
 		Base = base;
+	}
+	
+	public double CalcularArea() {
+		return (Base * Altura) / 2;
 	}
 	
 	
